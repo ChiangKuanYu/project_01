@@ -10,16 +10,14 @@ import "./Mapbox.css";
 
 import TMountain from "../../assets/Json/taiwanMountain.json";
 
-// const TOKEN = process.env.REACT_APP_TOKEN;
-const TOKEN = "your mapbox API";
+const TOKEN = process.env.REACT_APP_TOKEN;
+// const TOKEN = "your mapbox API";
 function Mapbox() {
   const [viewPort, setViewPort] = useState({
     longitude: 120.751864,
     latitude: 23.575998,
     zoom: 7,
   });
-
-  console.log(TOKEN);
 
   return (
     <div className="reactMap" id="reactMap">

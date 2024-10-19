@@ -20,8 +20,6 @@ function LeftSideSection() {
     setSection(event.target.getAttribute("value"));
   }
 
-  console.log(section);
-
   return (
     <div className="left-section">
       <div className="logo">
