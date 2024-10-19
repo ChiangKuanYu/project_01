@@ -2,6 +2,7 @@ import React from "react";
 import "./HomePage.css";
 
 import LeftSideSection from "../LeftSection/LeftSideSection";
+import Mapbox from "../MapContainer/Mapbox";
 
 function HomePage() {
   return (
@@ -10,7 +11,7 @@ function HomePage() {
         <LeftSideSection />
       </div>
       <div className="main">
-        <label>Hello World</label>
+        <Mapbox />
       </div>
     </div>
   );
