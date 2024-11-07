@@ -1,5 +1,50 @@
 .reactMap{
     height:100%;
     width: 100%;
-    border-right: 10px solid #F0F0F0;
+    
+    /* border-right: 10px solid #F0F0F0; */
 }
+.reactMap .control-panel {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 250px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    padding: 12px 24px;
+    margin: 20px;
+    font-size: 13px;
+    line-height: 2;
+    color: #6b6b76;
+    text-transform: uppercase;
+    outline: none;
+  }
+  
+  .reactMap .control-panel label {
+    display: inline-block;
+  }
+  
+  .reactMap .control-panel .input{
+    margin-left: 2px;
+  }
+.reactMap .tooltip {
+    position: absolute;
+    margin: 8px;
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    max-width: 300px;
+    font-size: 15px;
+    z-index: 9;
+    pointer-events: none;
+  }
+
+  .reactMap .HM{
+    font-size: 25px;
+    color: rgb(69, 140, 61);
+  }
+  
+  .reactMap .SHM{
+    font-size: 25px;
+    color: rgb(100, 150, 255);
+  }

@@ -9,7 +9,52 @@
     border-bottom: 10px solid #F0F0F0;
     border-right: 10px solid #F0F0F0;
     border-left: 10px solid #F0F0F0;
+    margin-left: 150px;
     display: flex;
     height: 100vh;
     width: 100%;
+}
+
+.main .mapbox{
+    height: 100%;
+    width: 75%;
+    border-right: 10px solid #F0F0F0;
+}
+
+.main .wikiAndweather{
+    height: 100%;
+    width: 25%;
+    background-color: #F0F0F0;
+    padding: 5px 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .main{
+        margin-left: 38px;
+    }
+    .main .mapbox{
+        width: 50%;
+    }
+    
+    .main .wikiAndweather{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main{
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+    }
+    .main .mapbox{
+        border-right:none;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .main .wikiAndweather{
+        height: 100vh;
+        width: 100%;
+    }
 }
